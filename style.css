@@ -1,0 +1,133 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* PURE BLACK BACKGROUND */
+body {
+    background: #000;
+    color: #fff;
+}
+
+/* HEADER */
+.top-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #111;
+    border-bottom: 1px solid #333;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+/* Social Links */
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Main Container */
+.main-container {
+    padding: 20px;
+}
+
+/* Premium Black & White Glass Cards */
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Skills Badges */
+.skills-box span {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.skills-box span:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Project Cards */
+.project-card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #444;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.project-card a {
+    color: #fff;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.project-card a:hover {
+    opacity: 1;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+    border-top: 1px solid #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
