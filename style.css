@@ -21,14 +21,23 @@ body {
     background: #111;
     border-bottom: 1px solid #333;
 }
+.profile-container {
+    text-align: center;
+}
 
 .profile-img {
-    width: 130px;
-    height: 130px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;   /* ✅ THIS FIXES THE FACE ISSUE */
     border-radius: 50%;
-    border: 3px solid white;
+    border: 4px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
     margin-bottom: 15px;
 }
+
+
+
 
 .name {
     font-size: 32px;
